@@ -59,8 +59,8 @@ class IncrementarActionListener implements ActionListener {
 }
 
 class DecrementarActionListener implements ActionListener {
-    JButton btn = new JButton();
-    JFrame ventana = new JFrame();
+    JButton btn;
+    JFrame ventana;
 
     public DecrementarActionListener(JButton btn, JFrame ventana) {
         this.btn = btn;
